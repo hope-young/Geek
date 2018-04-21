@@ -8,5 +8,5 @@ time := time * 1000
 Sleep,%time%
 ;引用变量前后加%
 
-MsgBox Time is up!!
+MsgBox Time Over!!
 return
