@@ -1,6 +1,5 @@
 ^t::
-InputBox,time,kira专用计时器,
-
+InputBox,time,kira's Timer,please input a time:
 ;弹出对话框
 
 time := time * 1000
@@ -9,5 +8,5 @@ time := time * 1000
 Sleep,%time%
 ;引用变量前后加%
 
-MsgBox 时间到！
+MsgBox Time is up!!
 return
